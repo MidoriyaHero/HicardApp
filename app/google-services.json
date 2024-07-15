@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "199777120124",
+    "firebase_url": "https://capstone-ca59b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "capstone-ca59b",
+    "storage_bucket": "capstone-ca59b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199777120124:android:5491d02ba9d30dc4527ef9",
+        "android_client_info": {
+          "package_name": "com.example.hicard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5gSPhETJitWB1230lJIuYbqIYbn8i4Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199777120124:android:c591407c67d2e377527ef9",
+        "android_client_info": {
+          "package_name": "com.example.ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5gSPhETJitWB1230lJIuYbqIYbn8i4Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

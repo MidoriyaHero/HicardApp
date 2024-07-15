@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Hicard"
+rootProject.name = "UI"
 include(":app")
  

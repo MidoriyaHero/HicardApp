@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Define your ViewModel or data variables here -->
+    </data>
+
+    <LinearLayout
+
+        android:id="@+id/linearDrDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700_2">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/tootlbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="26dp" app:contentInsetStart="0dp">
+            <LinearLayout
+                android:id="@+id/linearRowarrowdown"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="29dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtDoctordetail"
+                    style="@style/txtIntersemibold16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ellipsize="middle"
+                    android:fontFamily="@font/interbold"
+                    android:singleLine="true"
+                    android:text="@string/lbl_patient_detail"
+                    android:textSize="48sp"
+                    tools:text="@string/lbl_patient_detail" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/linearColumnabout"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:orientation="vertical"
+            android:paddingStart="13dp"
+            android:paddingTop="26dp"
+            android:paddingEnd="13dp"
+            android:paddingBottom="26dp">
+
+            <LinearLayout
+                android:id="@+id/linearColumndrmacus"
+                style="@style/groupStylewhite_A700_01cornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:orientation="vertical"
+                android:paddingStart="8dp"
+                android:paddingTop="7dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="7dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="367dp"
+                        android:layout_height="144dp"
+                        android:layout_marginStart="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtDrmarcus"
+                            style="@style/txtIntersemibold18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/lbl_patient_name"
+                            android:textSize="20sp"
+                            tools:text="@string/lbl_patient_name" />
+
+                        <TextView
+                            android:id="@+id/txtChardiologist"
+                            style="@style/txtIntermedium12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/msg_age_insert_name"
+                            android:textSize="16sp"
+                            tools:ignore="TextSizeCheck"
+                            tools:text="@string/msg_age_insert_name" />
+
+                        <TextView
+                            android:id="@+id/txtChardiologist1"
+                            style="@style/txtIntermedium12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/msg_sex_insert_gender"
+                            android:textSize="16sp"
+                            tools:ignore="TextSizeCheck"
+                            tools:text="@string/msg_sex_insert_gender" />
+
+                        <TextView
+                            android:id="@+id/txtDistance"
+                            style="@style/txtIntermedium12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            tools:ignore="TextSizeCheck" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Aboutpattern"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/rectangle_bg_white_border_blue"
+            android:orientation="vertical"
+            android:paddingEnd="13dp"
+            android:paddingBottom="26dp">
+
+            <TextView
+                android:id="@+id/txtAbout"
+                style="@style/txtIntersemibold18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="1dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_about"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/historymedical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/msg_insert_your_medical"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/RowchatIcon"
+            style="@style/btnSolidRounded_4"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectangle_bg_gray_r20"
+            android:hint="Call Patient"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <FrameLayout
+            android:id="@+id/frameStackdividerlin"
+            android:layout_width="380dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/linearColumndivider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/dividerline1"
+                    android:layout_width="380dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/indigo_900" />
+
+                <View
+                    android:id="@+id/dividerline"
+                    android:layout_width="380dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/indigo_900" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtMapLocation"
+                style="@style/txtPoppinssemibold26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:ellipsize="end"
+                android:gravity="top|start"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="15dp"
+                android:singleLine="true"
+                android:text="@string/lbl_map_location"
+                tools:text="@string/lbl_map_location" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/btnSolidRounded_4"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectangle_bg_gray_r20"
+            android:hint="View Location"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</layout>
